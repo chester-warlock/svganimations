@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+#main{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	transition: 3s;
+	background-position: center;
+	background-size: cover;
+
+}
+.navbar{
+	margin: auto;
+	width: 85%;
+	display: flex;
+	align-items: center;
+	padding-top: 20px;
+
+}
+.logo{
+	flex-basis: 20%;
+}
+.logo img{
+	width: 150px;
+	cursor: pointer;
+	border-radius:10px;
+	box-shadow: 10px 10px 3px;
+	margin: 10px;
+	
+}
+nav{
+	flex: 1;
+	text-align: right;	
+}
+nav ul li{
+	list-style: none;
+	color: #fff;
+	display: inline-block;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.circle-box{
+	position: absolute;
+	height: 450px;
+	width: 450px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	overflow: hidden;
+	
+}
+svg{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+#svgCircle{
+	stroke-dasharray: 1256;
+	stroke-dashoffset: 1256;
+	transition: 1.3s;
+
+}
+span{
+	position: absolute;
+	height: 13px;
+	width: 13px;
+	background: #fff;
+	border-radius: 50%;
+	display: block;
+	cursor: pointer;
+	z-index: 10;
+
+}
+#step1{
+	right: 158px;
+    bottom: 28px;
+
+}
+
+#step2{
+	left: 55px;
+    bottom: 104px;
+	}
+
+#step3{
+	left: 58px;
+    top: 99px;
+
+}
+#step4{
+	right: 152px;
+    top: 31px;
+    }
+
+ #step5{
+  	right: 19px;
+    top: 216px
+  }
+
+ .user-box{
+ 	width: 350px;
+ 	position: absolute;
+ 	top: 100px;
+ 	left: 50%;
+ 	transform: translateX(-50%);
+ 	text-align:center;
+ 	color: #33f6f2;
+ 	transition: 1.5s;
+
+
+ }
+ .user img{
+ 	width: 90px;
+ 	margin-bottom: 10px;
+ 	border-radius: 50%;
+
+ }
+ .social-links img{
+ 	width: 20px;
+ 	border-radius: 1px;
+ 	padding: 5px 10px;
+ 	cursor: pointer;
+
+ }
+ .user-box p{
+ 	margin: 20px 0;
+ 	color: #c0c0c0;
+ 	line-height: 25px;
+
+ }
+ .user{
+ 	height: 450px;
+ }
